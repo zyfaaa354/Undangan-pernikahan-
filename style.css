@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f6f1;
+  color: #3a3a3a;
+  text-align: center;
+}
+
+.cover {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nama {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #c59d5f;
+}
+
+.tanggal {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 12px 30px;
+  border: 1px solid #c59d5f;
+  background: transparent;
+  color: #c59d5f;
+  border-radius: 30px;
+}
+
+.content {
+  display: none;
+  padding: 40px 20px;
+}
+
+.box {
+  border: 1px solid #c59d5f;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.rsvp {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 25px;
+  background: #c59d5f;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.fade {
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
